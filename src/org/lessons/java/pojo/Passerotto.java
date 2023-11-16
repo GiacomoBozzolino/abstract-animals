@@ -31,14 +31,10 @@ public class Passerotto extends Animale implements IVolante{
 		return super.toString();
 	}
 	
-	public void vola() {
-		System.out.println("sto volando!");
-	}
-
 	@Override
-	public void faiVolare() {
+	public void vola() {
 		// TODO Auto-generated method stub
-		vola();
+		System.out.println(getName()+" sto volando");
 	}
 
 }

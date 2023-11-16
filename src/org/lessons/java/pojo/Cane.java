@@ -22,7 +22,7 @@ public class Cane extends Animale implements INuotante{
 	@Override
 	public void getAnimalCall() {
 		// TODO Auto-generated method stub
-		System.out.println("Il passerotto fa:" + CALL);
+		System.out.println(getName() + "Il passerotto fa:" + CALL);
 	}
 	
 	@Override
@@ -31,14 +31,10 @@ public class Cane extends Animale implements INuotante{
 		return super.toString();
 	}
 	
-	public void nuota() {
-		System.out.println("sto nuotando!");
-	}
-
 	@Override
-	public void faiNuotare() {
+	public void nuota() {
 		// TODO Auto-generated method stub
-		nuota();
+		System.out.println(getName() + " sto nuotando");
 	}
 
 }

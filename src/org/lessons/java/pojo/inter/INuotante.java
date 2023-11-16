@@ -2,6 +2,6 @@ package org.lessons.java.pojo.inter;
 
 public interface INuotante {
 	
-	public void faiNuotare();
+	public void nuota();
 
 }

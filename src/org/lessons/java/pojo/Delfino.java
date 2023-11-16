@@ -32,14 +32,10 @@ public class Delfino extends Animale implements INuotante {
 		return super.toString();
 	}
 	
-	public void nuota() {
-		System.out.println("sto nuotando!");
-	}
-
 	@Override
-	public void faiNuotare() {
+	public void nuota() {
 		// TODO Auto-generated method stub
-		nuota();
+		System.out.println(getName() + " sto nuotando");
 	}
 
 }
