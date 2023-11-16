@@ -5,6 +5,7 @@ import org.lessons.java.pojo.Cane;
 import org.lessons.java.pojo.Delfino;
 import org.lessons.java.pojo.Passerotto;
 import org.lessons.java.pojo.abs.Animale;
+import org.lessons.java.pojo.inter.IVolante;
 
 public class Main {
  public static void main(String[] args) {
@@ -36,5 +37,13 @@ public class Main {
 			System.out.println("\n-----------------------\n");
 		}
 	 	
+	 	
+//	 	
+			
+		}
+	 	
+	 	
+	 	
+	 	
 }
-}
+

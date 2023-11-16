@@ -1,8 +1,9 @@
 package org.lessons.java.pojo;
 
 import org.lessons.java.pojo.abs.Animale;
+import org.lessons.java.pojo.inter.IVolante;
 
-public class Aquila extends Animale {
+public class Aquila extends Animale implements IVolante{
 	
 	public static String CALL = "Screeech";
 	public static String FOOD = "Carne";
@@ -30,6 +31,16 @@ public class Aquila extends Animale {
 	public String toString() {
 		// TODO Auto-generated method stub
 		return super.toString();
+	}
+	
+	public void vola() {
+		System.out.println("sto volando!");
+	}
+
+	@Override
+	public void faiVolare() {
+		// TODO Auto-generated method stub
+		vola();
 	}
 	
 

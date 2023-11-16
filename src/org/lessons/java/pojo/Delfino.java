@@ -1,8 +1,9 @@
 package org.lessons.java.pojo;
 
 import org.lessons.java.pojo.abs.Animale;
+import org.lessons.java.pojo.inter.INuotante;
 
-public class Delfino extends Animale {
+public class Delfino extends Animale implements INuotante {
 	
 	public static String CALL = "Eek-eek";
 	public static String FOOD = "pesce";
@@ -29,6 +30,16 @@ public class Delfino extends Animale {
 	public String toString() {
 		// TODO Auto-generated method stub
 		return super.toString();
+	}
+	
+	public void nuota() {
+		System.out.println("sto nuotando!");
+	}
+
+	@Override
+	public void faiNuotare() {
+		// TODO Auto-generated method stub
+		nuota();
 	}
 
 }
